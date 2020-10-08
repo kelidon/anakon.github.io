@@ -3,23 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "23307e5fdcba2edd9016019085593661",
+  "assets/AssetManifest.json": "36921df9e839c9beb073ceb2efb233f0",
 "assets/assets/fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "assets/assets/fonts/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-"assets/assets/images/anakon_logo.svg": "2a2e5f3be8186cf2dd51075029b57932",
-"assets/assets/images/anakon_logo_1.svg": "b8bc58f89e42c6b644f4b4c5dfaaf7b8",
-"assets/assets/images/anakon_logo_2.svg": "a676c5be2f9926561c23b39f2810af6d",
-"assets/assets/images/anakon_logo_3.svg": "7fd431ecbb93991269d46565d2c50b5e",
+"assets/assets/images/anakon_logo_3.png": "a20feca92415fc2d3aa452d6e7987a1a",
 "assets/assets/images/blur.jpg": "0f0fb1dcf3f4538ad0eeaac25733e872",
 "assets/assets/images/blur_horizontal.png": "89914aac41995f810d5c82e4dde0767f",
 "assets/assets/images/documents.jpg": "f57e50c8547301b97627904a0e2f8a2e",
 "assets/assets/images/led_lamp.jpg": "237eb6341dd90f58cb99942be25f894c",
-"assets/assets/images/logo.png": "c35b09a561ee5408f689868da428f530",
-"assets/assets/images/logo_2.svg": "b7d9a8e2420710862d188cb7044b1426",
-"assets/assets/images/logo_font.jpg": "2b51f84e7f2ef72ec07bf79d4a496d41",
-"assets/assets/images/logo_on_tower.png": "65454d0c5da935e891c7336ed9770538",
-"assets/assets/images/logo_on_tower.svg": "dffad79282437cbf3763418377d2e41c",
-"assets/assets/images/logo_on_tower_1.png": "ee22275a7fa01aace6f582599d310133",
+"assets/assets/images/logo_2.png": "95dbd78ebb7da3f2195ef45e1944808e",
 "assets/assets/images/logo_on_tower_2.png": "a65e30767ad6c1a5cbc5aa45dc0e63cd",
 "assets/assets/images/renewal.jpg": "161215e4d924889f9e74f69fda5f6311",
 "assets/assets/images/technical.jpg": "752cccef3f31d1f6bdf9c54c752ff864",
@@ -37,9 +29,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "7b375e427547d490b6308d6fba41341d",
-"/": "7b375e427547d490b6308d6fba41341d",
-"main.dart.js": "400ac4d0a40a9f1e475f64307f1ab1d8",
+"index.html": "2ee4b739a8c932515f941eb307c1eb44",
+"/": "2ee4b739a8c932515f941eb307c1eb44",
+"main.dart.js": "dd0ac2f0c493f40f84ff419e00c239c2",
 "manifest.json": "edec10d4a54b61be5dd08497f4fc29dd"
 };
 

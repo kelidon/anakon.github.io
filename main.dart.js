@@ -28167,7 +28167,7 @@ s=s.gb3(s)
 s.toString
 Math.ceil(s)
 s=o.e
-q=M.a2T(p,p,new D.mF(s?"assets/images/anakon_logo_3.svg":"assets/images/logo_2.svg",1))
+q=M.a2T(p,p,new D.mF(s?"assets/images/anakon_logo_3.png":"assets/images/logo_2.png",1))
 s=R.cH(a,t.f).b||s?new O.WI(o,a):p
 if(o.d)o=M.az(p,new U.ke(q,p,p,p,p),p,p,p,p,p,p,p,p,p,p)
 else{n=L.bN(C.ps.h(0,n),C.r1)
