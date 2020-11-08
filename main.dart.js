@@ -28558,7 +28558,7 @@ return s},
 $S:326}
 F.pu.prototype={
 ae:function(){var s=t.i
-return new F.un(H.b(["assets/images/blur.jpg","images/blurs/new_blur_1.jpg","images/blurs/new_blur_1_blur.jpg","images/blurs/new_blur_2.jpg","images/blurs/new_blur_2_blur.jpg","images/blurs/new_blur_3.jpg","images/blurs/new_blur_3_blur.jpg"],s),H.b(["assets/images/blur_horizontal.png","assets/images/logo_on_tower.png"],s),null,C.k)}}
+return new F.un(H.b(["assets/images/blur.jpg","assets/images/new_blur_1.jpg","assets/images/new_blur_1_blur.jpg","assets/images/new_blur_2.jpg","assets/images/new_blur_2_blur.jpg","assets/images/new_blur_3.jpg","assets/images/new_blur_3_blur.jpg"],s),H.b(["assets/images/blur_horizontal.png","assets/images/logo_on_tower.png"],s),null,C.k)}}
 F.un.prototype={
 Mu:function(){var s=this,r=s.f
 if(r.d.length!==0&&s.e.d.length!==0){r.f2(C.b.gcA(s.d.d).y*0.1)

@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "944abe6e433111f4d34fae14eb4da438",
+  "assets/AssetManifest.json": "b88988146045a654b3e0a31f1b85e1e0",
 "assets/assets/fonts/anakonGreek.ttf": "430f34af3cee1597029517c3663f6f83",
 "assets/assets/fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "assets/assets/fonts/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
@@ -16,6 +16,12 @@ const RESOURCES = {
 "assets/assets/images/logo_appbar_1.png": "a20feca92415fc2d3aa452d6e7987a1a",
 "assets/assets/images/logo_menu.png": "95dbd78ebb7da3f2195ef45e1944808e",
 "assets/assets/images/logo_on_tower.png": "aa88effa9830c900f478c15cde1ea4ca",
+"assets/assets/images/new_blur_1.jpg": "4cdb322730b8f9b0ce7dd20c49b9ebf4",
+"assets/assets/images/new_blur_1_blur.jpg": "1a54fe0b7a6dea496bb497246f151407",
+"assets/assets/images/new_blur_2.jpg": "5b1b3f1f3a67c996972a799d20dce79a",
+"assets/assets/images/new_blur_2_blur.jpg": "58cdfad4e10125e0824ba8f1cb402590",
+"assets/assets/images/new_blur_3.jpg": "0257ba99b83c07eee34984faa1cf225c",
+"assets/assets/images/new_blur_3_blur.jpg": "f3887d041176dc1b606fb479ab8bea28",
 "assets/assets/images/online_support.jpg": "15ea9631364ccf6e7f22b70aa721080c",
 "assets/assets/images/outstaffing.jpg": "bfe93be6708da044ca14b7cc464e676a",
 "assets/assets/images/personal_engineer.jpg": "f779efdc276fb3e256fb4c561e95e900",
@@ -36,9 +42,9 @@ const RESOURCES = {
 "icons/favicon2.png": "340aacff202dab195093452009e04e09",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "e7964923a9bf0711d5a1ab165736aa30",
-"/": "e7964923a9bf0711d5a1ab165736aa30",
-"main.dart.js": "8f324f4bfd41171e678e60e5783f745a",
+"index.html": "65f4630e9457760cc4aae40e3042f224",
+"/": "65f4630e9457760cc4aae40e3042f224",
+"main.dart.js": "3c125b3a537195515ee385afbc089f13",
 "manifest.json": "edec10d4a54b61be5dd08497f4fc29dd"
 };
 
