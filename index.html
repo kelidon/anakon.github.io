@@ -1,25 +1,28 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <title>Anakon</title>
-  <link rel="preload" href="icons/Icon-192.png" as="fetch" crossorigin>
-  <link rel="preload" href="icons/Icon-512.png" as="fetch" crossorigin>
-  <link rel="preload" href="icons/favicon.png" as="fetch" crossorigin>
-  <link rel="preload" href="icons/favicon1.png" as="fetch" crossorigin>
-  <link rel="preload" href="icons/favicon2.png" as="fetch" crossorigin>
-  <link rel="preload" href="manifest.json" as="fetch" crossorigin>
-  <link rel="preload" href="tower_horizontal.gif" as="fetch" crossorigin>
-  <script defer src="index.dart.js" type="application/javascript"></script>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Anakon">
+
+    <title>Anakon</title>
+    <link rel="preload" href="assets/images/logo.svg" as="fetch" crossorigin>
+    <link rel="preload" href="assets/images/logo_menu.png" as="fetch" crossorigin>
+    <link rel="preload" href="fonts/Poppins-Bold.ttf" as="font" crossorigin>
+    <link rel="preload" href="fonts/Poppins.ttf" as="font" crossorigin>
+    <link rel="preload" href="icons/Icon-192.png" as="fetch" crossorigin>
+    <link rel="preload" href="icons/Icon-512.png" as="fetch" crossorigin>
+    <link rel="preload" href="icons/favicon.png" as="fetch" crossorigin>
+    <link rel="preload" href="icons/favicon1.png" as="fetch" crossorigin>
+    <link rel="preload" href="icons/favicon2.png" as="fetch" crossorigin>
+    <link rel="preload" href="individuality.jpg" as="fetch" crossorigin>
+    <link rel="preload" href="logo_on_tower.png" as="fetch" crossorigin>
+    <link rel="preload" href="manifest.json" as="fetch" crossorigin>
+    <link rel="preload" href="tower.mp4" as="fetch" crossorigin>
+    <link rel="preload" href="tower_horizontal.gif" as="fetch" crossorigin>
+    <link rel="manifest" href="manifest.json">
 
     <style>
-
-        video{
-            preload: true;
-            autoplay: true;
-            loop: true;
-            autobuffer: true;
-        }
 
         @font-face {
             font-family: Poppins;
@@ -107,21 +110,9 @@
 
 
     </style>
+
 </head>
-
 <body>
-
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('flutter_service_worker.js?v=1677434305');
-        });
-    }
-</script>
-
-
-<script src="main.dart.js" type="application/javascript"></script>
-
 
 <div class="image-wrap image-flex ">
     <p>
@@ -132,7 +123,33 @@
     </p>
 
 </div>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('flutter_service_worker.js?v=3283601454');
+        });
+    }
+</script>
+<script src="main.dart.js" type="application/javascript">
 
+    // jQuery(document).ready(function() {
+    //     //Preloader
+    //     jQuery(window).on("load", function() {
+    //         preloaderFadeOutTime = 500;
+    //
+    //         function hidePreloader() {
+    //             var animation = jQuery('.animation');
+    //             var text = jQuery('.p-center');
+    //             animation.fadeOut(preloaderFadeOutTime);
+    //             text.fadeOut(preloaderFadeOutTime);
+    //         }
+    //         hidePreloader();
+    //     });
+    // });
+
+</script>
 </body>
-
 </html>
