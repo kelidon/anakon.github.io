@@ -5,9 +5,18 @@
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="Anakon">
 
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Anakon">
+
     <title>Anakon</title>
+    <link rel="preload" href="assets/images/individuality.jpg" as="fetch" crossorigin>
     <link rel="preload" href="assets/images/logo.svg" as="fetch" crossorigin>
     <link rel="preload" href="assets/images/logo_menu.png" as="fetch" crossorigin>
+    <link rel="preload" href="assets/images/logo_on_tower.png" as="fetch" crossorigin>
+    <link rel="preload" href="assets/images/tower.mp4" as="fetch" crossorigin>
+    <link rel="preload" href="assets/images/tower_horizontal.gif" as="fetch" crossorigin>
     <link rel="preload" href="fonts/Poppins-Bold.ttf" as="font" crossorigin>
     <link rel="preload" href="fonts/Poppins.ttf" as="font" crossorigin>
     <link rel="preload" href="icons/Icon-192.png" as="fetch" crossorigin>
@@ -15,11 +24,7 @@
     <link rel="preload" href="icons/favicon.png" as="fetch" crossorigin>
     <link rel="preload" href="icons/favicon1.png" as="fetch" crossorigin>
     <link rel="preload" href="icons/favicon2.png" as="fetch" crossorigin>
-    <link rel="preload" href="individuality.jpg" as="fetch" crossorigin>
-    <link rel="preload" href="logo_on_tower.png" as="fetch" crossorigin>
     <link rel="preload" href="manifest.json" as="fetch" crossorigin>
-    <link rel="preload" href="tower.mp4" as="fetch" crossorigin>
-    <link rel="preload" href="tower_horizontal.gif" as="fetch" crossorigin>
     <link rel="manifest" href="manifest.json">
 
     <style>
@@ -129,26 +134,26 @@
 <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
-            navigator.serviceWorker.register('flutter_service_worker.js?v=3283601454');
+            navigator.serviceWorker.register('flutter_service_worker.js?v=1480620620');
         });
     }
 </script>
 <script src="main.dart.js" type="application/javascript">
 
-    // jQuery(document).ready(function() {
-    //     //Preloader
-    //     jQuery(window).on("load", function() {
-    //         preloaderFadeOutTime = 500;
-    //
-    //         function hidePreloader() {
-    //             var animation = jQuery('.animation');
-    //             var text = jQuery('.p-center');
-    //             animation.fadeOut(preloaderFadeOutTime);
-    //             text.fadeOut(preloaderFadeOutTime);
-    //         }
-    //         hidePreloader();
-    //     });
-    // });
+    jQuery(document).ready(function() {
+        //Preloader
+        jQuery(window).on("load", function() {
+            preloaderFadeOutTime = 500;
+
+            function hidePreloader() {
+                var wrapper = jQuery('.image-wrap');
+                var spinner = jQuery('.image-flex');
+                wrapper.fadeOut(preloaderFadeOutTime);
+                spinner.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+        });
+    });
 
 </script>
 </body>
