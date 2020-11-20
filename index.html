@@ -15,7 +15,7 @@
     <link rel="preload" href="assets/images/blur_horizontal.png" as="image"  >
     <link rel="preload" href="assets/images/effective.jpg" as="image"  >
     <link rel="preload" href="assets/images/experience.jpg" as="image"  >
-    <link rel="preload" href="assets/images/facture1.png" as="image"  >
+    <link rel="preload" href="assets/images/right_stripe_hover.png" as="image"  >
     <link rel="preload" href="assets/images/individuality.jpg" as="image"  >
     <link rel="preload" href="assets/images/logo_appbar.png" as="image"  >
     <link rel="preload" href="assets/images/logo_appbar_1.png" as="image"  >
@@ -27,13 +27,12 @@
     <link rel="preload" href="assets/images/personal_engineer.jpg" as="image"  >
     <link rel="preload" href="assets/images/unique.jpg" as="image"  >
     <link rel="preload" href="assets/video/tower.mp4" as="video"  >
-    <link rel="preload" href="assets/video/tower_horizontal.gif" as="image" crossorigin>
+    <link rel="preload" href="assets/video/tower_horizontal.mp4" as="video"  >
     <link rel="preload" href="fonts/Poppins-Bold.ttf" as="font"  >
     <link rel="preload" href="fonts/Poppins.ttf" as="font"  >
     <link rel="preload" href="icons/favicon.png" as="image"  >
     <link rel="preload" href="icons/favicon1.png" as="image"  >
     <link rel="preload" href="icons/favicon2.png" as="image"  >
-    <link rel="preload" href="manifest.json" as="document">
     <link rel="manifest" href="manifest.json" as="document">
 
     <style>
@@ -143,13 +142,26 @@
 <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
-            navigator.serviceWorker.register('flutter_service_worker.js?v=1770839314');
+            navigator.serviceWorker.register('flutter_service_worker.js?v=1895102907');
         });
     }
 </script>
-<script src="main.dart.js" type="application/javascript">
+<script>
+    function onLoad(url){
+        var script = document.createElement('script');
+        script.src="main.dart.js";
+        script.setAttribute('async','true');
+        document.documentElement.firstChild.appendChild(script);
+    }
+    onLoad("main.dart.js");
+    setTimeout(function (){
+        onLoad("main.dart.js");
+    },2000);
 
 
 </script>
+<!--<script src="main.dart.js" type="application/javascript"></script>-->
+
+
 </body>
 </html>
