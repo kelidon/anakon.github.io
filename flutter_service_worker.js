@@ -56,10 +56,10 @@ const RESOURCES = {
 "icons/favicon.png": "80ac74e893ec13f5b78c9386ef3044e6",
 "icons/favicon1.png": "fe279c7cb25106ec0d4f139f0594fc1a",
 "icons/favicon2.png": "340aacff202dab195093452009e04e09",
-"index.html": "6c6eceb486ce0842b37828f089156fcb",
-"/": "6c6eceb486ce0842b37828f089156fcb",
+"index.html": "8d0d04a83bada533f86f476bd54134eb",
+"/": "8d0d04a83bada533f86f476bd54134eb",
 "index.template.html": "c38f3bfd3d2e12771ccf8ffec882dd35",
-"main.dart.js": "5531432a4cfd52fce93d0ef23be3b56a",
+"main.dart.js": "f6592b57b5480b8933b9c46988fc9bfa",
 "manifest.json": "edec10d4a54b61be5dd08497f4fc29dd",
 "version.json": "01c1abd99ff96808711d37ec4b2d72f0"
 };
