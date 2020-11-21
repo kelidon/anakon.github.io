@@ -32168,7 +32168,7 @@ q=t.ec
 q=i?H.c([new O.cO(0,P.aM(C.v.am(127.5),158,158,158),new P.n(0,5),5)],q):H.c([],q)
 p=b?C.xy:C.xz
 p=T.e2(R.hD(!1,!0,L.BJ(p,new P.H(4278593626),j),j,!0,j,j,j,j,j,j,j,j,j,new L.a_K(a),j,j,j),j,j)
-o=L.ci("v3",j,j,j,j,j)
+o=L.ci("v4",j,j,j,j,j)
 n=a.G(t.w).f
 m=this.b!==C.a_
 l=L.ci("+375-44-570-57-57",j,j,j,m?C.uf:C.ug,j)
@@ -32902,11 +32902,11 @@ $S:2}
 X.pC.prototype={
 a9:function(){return new X.KX(null,C.l)}}
 X.KX.prototype={
-ay:function(){var s=this
+ay:function(){var s=this,r="video/tower.mp4"
 s.aZ()
-s.d=V.ad_("video/tower.mp4")
+s.d=V.ad_(r)
 $.aZ.z$.push(new X.a5t(s))
-s.f=V.ad_("video/tower_horizontal.mp4")
+s.f=V.ad_(r)
 $.aZ.z$.push(new X.a5u(s))},
 n:function(a){this.OJ(0)
 this.d.n(0)
@@ -32938,9 +32938,7 @@ n=k.a.c
 n=E.vD(M.a8(m,B.abe(new X.a5q(k),k.e,q),C.h,m,m,m,m,m,m,m,m,m,m,m),n,new L.iZ(m),C.m)
 r=s.G(r).f
 l=M.a8(m,T.fk(C.b1,H.c([n,T.bX(H.c([M.a8(C.m7,M.a8(m,$.afF(),C.h,m,m,m,m,m,m,m,m,m,m,m),C.h,m,m,m,m,m,m,m,m,m,m,r.a.a*0.15)],p),C.w,C.ro,C.G)],p),C.aZ,m),C.h,m,m,m,m,o.a.b,m,new V.a2(0,1,0,0),m,m,m,l.a.a*0.15)}else{l=s.G(r).f
-r=s.G(r).f
-s=k.a.c
-l=M.a8(m,T.fk(C.b1,H.c([E.vD(M.a8(m,B.abe(new X.a5r(k),k.e,q),C.h,m,m,m,m,m,m,m,m,m,m,m),s,new L.iZ(m),C.m)],p),C.aZ,m),C.h,m,m,m,m,r.a.b,m,new V.a2(0,1,0,0),m,m,m,l.a.a)}return l},
+l=M.a8(m,T.fk(C.b1,H.c([E.vD(M.a8(m,B.abe(new X.a5r(k),k.e,q),C.h,m,m,m,m,m,m,m,m,m,m,m),m,new L.iZ(m),C.n)],p),C.aZ,m),C.h,m,m,m,m,40,m,m,m,m,m,l.a.a)}return l},
 $C:"$2",
 $R:2,
 $S:25}
