@@ -1,12 +1,13 @@
 <html>
 <head>
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Anakon">
+    <meta name="apple-mobile-web-app-title" content="АНАКОН">
 
 
     <title>АНАКОН</title>
@@ -31,8 +32,6 @@
     <link rel="preload" href="fonts/Poppins-Bold.ttf" as="font"  >
     <link rel="preload" href="fonts/Poppins.ttf" as="font"  >
     <link rel="preload" href="icons/favicon.png" as="image"  >
-    <link rel="preload" href="icons/favicon1.png" as="image"  >
-    <link rel="preload" href="icons/favicon2.png" as="image"  >
     <link rel="manifest" href="manifest.json" as="document">
 
     <style>
@@ -59,7 +58,7 @@
             margin-top: 500px;
             color: #06285A;
             animation: text-focus-in 3s infinite alternate;
-            font-family: Tahoma;
+            font-family: Tahoma,sans-serif;
             font-weight: normal;
         }
 
@@ -219,7 +218,7 @@
 <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
-            navigator.serviceWorker.register('flutter_service_worker.js?v=1381074770');
+            navigator.serviceWorker.register('flutter_service_worker.js?v=4246097419');
         });
     }
 </script>
