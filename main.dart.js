@@ -32506,7 +32506,7 @@ return new P.aA(a,B.t4(C.hJ,null,$.qI().h(0,a).a,s,null),t.rH)},
 $S:235}
 F.zU.prototype={
 F:function(a,b){var s=H.c([R.Nt(new F.N2(),t.BQ),R.Nt(new F.N3(),t.D),R.Nt(new F.N4(),t.pT),R.Nt(new F.N5(),t.p_)],t.wj)
-return M.ajI(new S.tW(new F.qZ(null),"Anakon",X.add(null,"Poppins",new K.un(P.as([C.D,new K.nX(),C.M,new K.nX()],t.vE,t.oN)),C.zl,X.adt()),!1,null),s)}}
+return M.ajI(new S.tW(new F.qZ(null),"\u0410\u041d\u0410\u041a\u041e\u041d",X.add(null,"Poppins",new K.un(P.as([C.D,new K.nX(),C.M,new K.nX()],t.vE,t.oN)),C.zl,X.adt()),!1,null),s)}}
 F.N2.prototype={
 $1:function(a){var s=new Y.fG(P.pe(null,null,t.vM),C.fm)
 s.pU()
