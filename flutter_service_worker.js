@@ -53,10 +53,10 @@ const RESOURCES = {
 "fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "fonts/Poppins.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
 "icons/favicon.png": "352d4263a55bb77aa76418f5a0964328",
-"index.html": "8b74792919ae18c96c8862ca49e54006",
-"/": "8b74792919ae18c96c8862ca49e54006",
+"index.html": "0de860384e66a6509d17127797ee1908",
+"/": "0de860384e66a6509d17127797ee1908",
 "index.template.html": "c38f3bfd3d2e12771ccf8ffec882dd35",
-"main.dart.js": "bce1b540d1578faf89da9ee8a169dd6b",
+"main.dart.js": "360898feebc7a1e8858d30763313fe06",
 "manifest.json": "e5a408087146d5e03de2f2b05a4f5e9b",
 "version.json": "01c1abd99ff96808711d37ec4b2d72f0"
 };
