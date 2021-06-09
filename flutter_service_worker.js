@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/assets/fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "assets/assets/fonts/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
 "assets/FontManifest.json": "b13624a073351eb36193dcbd22db1cee",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/images/blur.jpg": "0f0fb1dcf3f4538ad0eeaac25733e872",
 "assets/images/blur_for_bs.jpg": "6e1b9d1f220da8f0d0c3c1a94b999fe2",
 "assets/images/blur_horizontal.png": "89914aac41995f810d5c82e4dde0767f",
@@ -25,7 +25,7 @@ const RESOURCES = {
 "assets/images/personal_engineer.jpg": "f779efdc276fb3e256fb4c561e95e900",
 "assets/images/right_stripe_hover.png": "451fc1b0733038810a78fdd888283e06",
 "assets/images/unique.jpg": "7d6a1fad78e2303e4f5110a93194d3ea",
-"assets/NOTICES": "d75b2b9c5e734b1130a39f777d59056f",
+"assets/NOTICES": "b705ec688617710c90a756915779979f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
@@ -53,10 +53,10 @@ const RESOURCES = {
 "fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "fonts/Poppins.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
 "icons/favicon.png": "352d4263a55bb77aa76418f5a0964328",
-"index.html": "4c77a272a57c6bcb68fd295e882766e3",
-"/": "4c77a272a57c6bcb68fd295e882766e3",
+"index.html": "25a2bf69f2409b7b874b581f2af7327c",
+"/": "25a2bf69f2409b7b874b581f2af7327c",
 "index.template.html": "c38f3bfd3d2e12771ccf8ffec882dd35",
-"main.dart.js": "360898feebc7a1e8858d30763313fe06",
+"main.dart.js": "975b7bd50ee9ee265dd299a31e0a7b3d",
 "manifest.json": "e5a408087146d5e03de2f2b05a4f5e9b",
 "version.json": "01c1abd99ff96808711d37ec4b2d72f0"
 };
@@ -76,7 +76,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -202,7 +202,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
