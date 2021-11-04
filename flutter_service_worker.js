@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "43e2b2b823f8a80432026c0b1ad3bf45",
+  "assets/AssetManifest.json": "62476bb4197eaa19d94840985d5a5a5e",
 "assets/assets/fonts/anakonGreek.ttf": "430f34af3cee1597029517c3663f6f83",
 "assets/assets/fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "assets/assets/fonts/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
@@ -25,13 +25,11 @@ const RESOURCES = {
 "assets/images/personal_engineer.jpg": "f779efdc276fb3e256fb4c561e95e900",
 "assets/images/right_stripe_hover.png": "451fc1b0733038810a78fdd888283e06",
 "assets/images/unique.jpg": "7d6a1fad78e2303e4f5110a93194d3ea",
-"assets/NOTICES": "b705ec688617710c90a756915779979f",
+"assets/NOTICES": "a009800701f5155a9b77350a2ab39ed7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
-"assets/video/tower.mp4": "0843a0436a6f812ba8b4be6db33a61b8",
-"assets/video/tower_mobile.mp4": "10bdf2a7a0e04f380f702ae98fcc6ba0",
 "assets/web/assets/images/blur.jpg": "0f0fb1dcf3f4538ad0eeaac25733e872",
 "assets/web/assets/images/blur_for_bs.jpg": "6e1b9d1f220da8f0d0c3c1a94b999fe2",
 "assets/web/assets/images/blur_horizontal.png": "89914aac41995f810d5c82e4dde0767f",
@@ -48,15 +46,13 @@ const RESOURCES = {
 "assets/web/assets/images/personal_engineer.jpg": "f779efdc276fb3e256fb4c561e95e900",
 "assets/web/assets/images/right_stripe_hover.png": "451fc1b0733038810a78fdd888283e06",
 "assets/web/assets/images/unique.jpg": "7d6a1fad78e2303e4f5110a93194d3ea",
-"assets/web/assets/video/tower.mp4": "0843a0436a6f812ba8b4be6db33a61b8",
-"assets/web/assets/video/tower_mobile.mp4": "10bdf2a7a0e04f380f702ae98fcc6ba0",
 "fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "fonts/Poppins.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
 "icons/favicon.png": "352d4263a55bb77aa76418f5a0964328",
-"index.html": "25a2bf69f2409b7b874b581f2af7327c",
-"/": "25a2bf69f2409b7b874b581f2af7327c",
+"index.html": "c346a8a6a5a122f10abcfc64174446a3",
+"/": "c346a8a6a5a122f10abcfc64174446a3",
 "index.template.html": "c38f3bfd3d2e12771ccf8ffec882dd35",
-"main.dart.js": "975b7bd50ee9ee265dd299a31e0a7b3d",
+"main.dart.js": "314149ce5594ba14b67f34a012abfeb9",
 "manifest.json": "e5a408087146d5e03de2f2b05a4f5e9b",
 "version.json": "01c1abd99ff96808711d37ec4b2d72f0"
 };
